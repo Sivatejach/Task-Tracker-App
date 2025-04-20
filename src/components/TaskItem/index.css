@@ -10,25 +10,24 @@
     border: 1px solid #ccc;
   }
   
-  /* Hover Effect */
+  
   .task-item:hover {
     background-color: #e5e7eb;
-    transform: scale(1.02); /* Slight scale on hover */
+    transform: scale(1.02);
   }
   
-  /* Clicked Effect */
+  
   .task-item.clicked {
-    background-color: #d1fae5; /* Light green when clicked */
+    background-color: #d1fae5; 
   }
-  
-  /* Completed Task Styling */
+
   .task-item.completed {
     background-color: #e6ffed;
     text-decoration: line-through;
     color: #6b7280;
   }
   
-  /* Task text */
+
   .task-text {
     flex-grow: 1;
     font-size: 16px;
@@ -37,7 +36,7 @@
     color: #333;
   }
   
-  /* Icons */
+
   .icon {
     font-size: 20px;
     cursor: pointer;
@@ -50,8 +49,7 @@
   .completed-icon {
     color: green;
   }
-  
-  /* Delete button */
+
   .delete-btn {
     background-color: transparent;
     border: none;
@@ -64,7 +62,7 @@
   }
   
   .delete-btn:hover {
-    transform: scale(1.1); /* Scale on hover */
+    transform: scale(1.1); 
   }
   
   .delete-icon {
