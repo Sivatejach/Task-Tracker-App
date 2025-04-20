@@ -1,12 +1,44 @@
-# React + Vite
+📌 Project Title: Task Tracker using React and Hooks
+🛠️ Tech Stack:
+Frontend: React.js (Functional Components, Hooks)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Styling: CSS Modules / Custom CSS
 
-Currently, two official plugins are available:
+State Management: React Hooks (useState, useEffect)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Build Tool: Create React App
 
-## Expanding the ESLint configuration
+📄 Project Description:
+The Task Tracker is a simple yet functional React-based application designed to help users manage daily tasks effectively. It allows users to add, view, delete, and toggle reminders for tasks. This project demonstrates proficiency in using React functional components and managing component state using React Hooks.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔍 Key Features:
+✅ Add new tasks with description and time
+
+🗑️ Delete tasks individually
+
+🔁 Toggle task reminder (like setting a flag/star on important tasks)
+
+🕒 Conditional rendering for showing/hiding task forms
+
+🔄 Persist data using local component state
+
+⚛️ React & Hooks Concepts Applied:
+useState:
+
+Manages task list array, input field values, and UI toggles (e.g., form visibility).
+
+useEffect:
+
+Used for simulating lifecycle methods such as fetching initial tasks (could be extended to fetch from an API).
+
+Component Composition:
+
+Reusable components like TaskItem, AddTaskForm, and Header for clean structure and modularity.
+
+Conditional Rendering:
+
+Show form only when "Add Task" button is clicked.
+
+Event Handling:
+
+Handles user inputs like clicks and typing in a form to update task state.
