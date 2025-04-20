@@ -1,0 +1,73 @@
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9fafb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: 1px solid #ccc;
+  }
+  
+  /* Hover Effect */
+  .task-item:hover {
+    background-color: #e5e7eb;
+    transform: scale(1.02); /* Slight scale on hover */
+  }
+  
+  /* Clicked Effect */
+  .task-item.clicked {
+    background-color: #d1fae5; /* Light green when clicked */
+  }
+  
+  /* Completed Task Styling */
+  .task-item.completed {
+    background-color: #e6ffed;
+    text-decoration: line-through;
+    color: #6b7280;
+  }
+  
+  /* Task text */
+  .task-text {
+    flex-grow: 1;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  /* Icons */
+  .icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .pending-icon {
+    color: red;
+  }
+  
+  .completed-icon {
+    color: green;
+  }
+  
+  /* Delete button */
+  .delete-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    transition: transform 0.2s ease;
+  }
+  
+  .delete-btn:hover {
+    transform: scale(1.1); /* Scale on hover */
+  }
+  
+  .delete-icon {
+    color: #000;
+  }
+  
